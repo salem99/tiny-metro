@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('test') {
+    stage('Build_BO') {
       steps {
-        build(propagate: true, job: 'maven')
+        sh 'ls'
       }
     }
   }
