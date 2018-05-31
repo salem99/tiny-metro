@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        sh 'ls -al'
+        build(propagate: true, job: 'maven')
       }
     }
   }
