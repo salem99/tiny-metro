@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        echo '1111'
+        sh 'ls -al'
       }
     }
   }
