@@ -4,7 +4,7 @@ pipeline {
     stage('Build_BO') {
       steps {
         echo 'aaaaa'
-        build '"tiny-metro-test"'
+        build 'job:\'tiny-metro-test\''
       }
     }
   }
