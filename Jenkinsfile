@@ -4,6 +4,7 @@ pipeline {
     stage('Build_BO') {
       steps {
         echo 'aaaaa'
+        build 'clean build'
       }
     }
   }
